@@ -17,6 +17,12 @@ public class Main {
         Member member2 = new Member(234567890);
         Member member3 = new Member(234567890);
 
+        System.out.println(member1.getMemberId());
+        System.out.println(member1.getBarcode());
+        System.out.println(member2.getMemberId());
+        System.out.println(member2.getBarcode());
+        System.out.println(member3.getMemberId());
+        System.out.println(member3.getBarcode());
     }
 }
 
