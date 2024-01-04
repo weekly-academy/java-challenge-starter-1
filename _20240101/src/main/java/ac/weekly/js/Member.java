@@ -1,6 +1,7 @@
-package ac.weekly;
+package ac.weekly.js;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 //1. 사용자 식별자와 바코드를 연결해주는 클래스
 // 2. 여태 발급된 바코드 목록을 관리하는 클래스
@@ -11,7 +12,7 @@ public class Member {
 //- 사용자 식별자는 9자리 숫자를 사용합니다.
 //  사용자 식별자는 중복될 수 없습니다.
 
-//- 멤버십 바코드는 10자리 숫자형 문자열을 사용합니다.
+    //- 멤버십 바코드는 10자리 숫자형 문자열을 사용합니다.
 //  발급된 멤버십 바코드는 다른 사람과 중복될 수 없습니다.
 //  다음번 발급될 멤버십 바코드가 예측 가능해서도 안됩니다.
 //- 이미 발급된 사용자로부터 발급 요청이 올 경우 기존 멤버십 바코드를 반환합니다.
@@ -21,7 +22,7 @@ public class Member {
     List<Integer> memberList = new ArrayList<>();
 
     public Member(Integer memberId) {
-        if(!memberList.contains(memberId)) { // 바코드
+        if (!memberList.contains(memberId)) { // 바코드
             this.memberId = memberId;
             this.barcode = barcode;
             memberList.add(memberId);
@@ -31,6 +32,7 @@ public class Member {
     public int getMemberId() {
         return memberId;
     }
+
     public void setMemberId(int memberId) {
         this.memberId = memberId;
     }

@@ -1,4 +1,4 @@
-package ac.weekly;
+package ac.weekly.js;
 
 import java.util.ArrayList;
 import java.util.List;
