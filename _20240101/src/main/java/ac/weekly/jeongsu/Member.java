@@ -1,4 +1,4 @@
-package ac.weekly.js;
+package ac.weekly.jeongsu;
 
 import java.util.ArrayList;
 import java.util.List;

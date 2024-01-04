@@ -1,7 +1,7 @@
-package ac.weekly.theo.storage;
+package ac.weekly.taeyang.storage;
 
-import ac.weekly.theo.domain.MembershipBarcode;
-import ac.weekly.theo.domain.User;
+import ac.weekly.taeyang.domain.MembershipBarcode;
+import ac.weekly.taeyang.domain.User;
 
 import java.util.HashMap;
 import java.util.Map;

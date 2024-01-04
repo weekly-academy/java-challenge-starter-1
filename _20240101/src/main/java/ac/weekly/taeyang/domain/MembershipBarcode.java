@@ -1,4 +1,4 @@
-package ac.weekly.theo.domain;
+package ac.weekly.taeyang.domain;
 
 import java.util.concurrent.ThreadLocalRandom;
 

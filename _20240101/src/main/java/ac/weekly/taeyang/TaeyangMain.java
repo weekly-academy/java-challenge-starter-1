@@ -1,17 +1,17 @@
-package ac.weekly.theo;
+package ac.weekly.taeyang;
 
-import ac.weekly.theo.domain.MembershipBarcode;
-import ac.weekly.theo.domain.User;
-import ac.weekly.theo.service.MembershipBarcodeCreateValidator;
-import ac.weekly.theo.service.MembershipCreator;
-import ac.weekly.theo.storage.MembershipBarcodeStorage;
-import ac.weekly.theo.storage.UserStorage;
+import ac.weekly.taeyang.domain.MembershipBarcode;
+import ac.weekly.taeyang.domain.User;
+import ac.weekly.taeyang.service.MembershipBarcodeCreateValidator;
+import ac.weekly.taeyang.service.MembershipCreator;
+import ac.weekly.taeyang.storage.MembershipBarcodeStorage;
+import ac.weekly.taeyang.storage.UserStorage;
 
 /**
  * @author Theo
  * @since 2024/01/04
  */
-public class TheoMain {
+public class TaeyangMain {
     public static void main(String[] args) {
         User user = new User(100_000_000);
 

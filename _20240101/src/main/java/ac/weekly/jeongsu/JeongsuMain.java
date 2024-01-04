@@ -1,10 +1,10 @@
-package ac.weekly.js;
+package ac.weekly.jeongsu;
 
 /**
  * @author Theo
  * @since 2024/01/01
  */
-public class Main {
+public class JeongsuMain {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 

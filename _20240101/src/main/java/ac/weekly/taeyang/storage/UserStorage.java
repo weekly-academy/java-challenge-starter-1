@@ -1,6 +1,6 @@
-package ac.weekly.theo.storage;
+package ac.weekly.taeyang.storage;
 
-import ac.weekly.theo.domain.User;
+import ac.weekly.taeyang.domain.User;
 
 import java.util.ArrayList;
 import java.util.Collection;

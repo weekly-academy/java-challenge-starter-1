@@ -1,9 +1,9 @@
-package ac.weekly.theo.service;
+package ac.weekly.taeyang.service;
 
-import ac.weekly.theo.domain.MembershipBarcode;
-import ac.weekly.theo.domain.User;
-import ac.weekly.theo.storage.MembershipBarcodeStorage;
-import ac.weekly.theo.storage.UserStorage;
+import ac.weekly.taeyang.domain.MembershipBarcode;
+import ac.weekly.taeyang.domain.User;
+import ac.weekly.taeyang.storage.MembershipBarcodeStorage;
+import ac.weekly.taeyang.storage.UserStorage;
 
 import java.util.Optional;
 

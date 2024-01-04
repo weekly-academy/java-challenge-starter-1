@@ -1,4 +1,4 @@
-package ac.weekly.js;
+package ac.weekly.jeongsu;
 
 public class Barcode {
 
